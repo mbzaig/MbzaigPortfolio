@@ -1,4 +1,4 @@
-# <MBZAIG Bootstrap Portfolio>
+# < Unit 3 Challenge: MBZAIG Bootstrap Portfolio>
 
 ## Description
 
@@ -19,10 +19,74 @@ If your README is long, add a table of contents to make it easy for users to fin
 ---
 ## Installation
 
-- The website can be accessed via https://mbzaig.github.io/FrontEndBaig
+- The website can be accessed via https://mbzaig.github.io/Bootstrap-Portfolio
 - Alternatively, the website can be accessed by right-clicking on the index.html page in th VScode and selecting open with live server
 
 Note. you will need to have the live server extension installed for this
+
+1. Create a new GitHub repositories and name it `Bootstrap-Portfolio`. ![](https://img.shields.io/badge/Status%20---100%25-brightgreen)
+
+2. Clone this repository to your computer.![](https://img.shields.io/badge/Status%20---100%25-brightgreen)
+
+3. Inside your `Bootstrap-Portfolio` repo, create the folder structure for the webpage.![](https://img.shields.io/badge/Status%20---100%25-brightgreen)
+   
+   - Create a folder structure.
+
+     - Create a `index.html`.
+
+     - Create a `css` folder.
+
+       - Inside create a `style.css` file.
+
+   - Create an `images` folder.
+
+       - Place all your images in this folder.
+
+4. Using Bootstrap, recreate your portfolio site with the following items: 
+
+   The website should include the following bootstrap components:
+
+    - A Navigation bar
+    
+    - A navigation menu at the top. Feel free to use bootstrap's navbar or create your own.
+
+      - Include links that are applicable to your portfolio.
+  
+        - Links should navigate to the appropriate sections 
+
+    - A hero section
+
+        - A jumbotron featuring your picture, your name, and any other information you'd like to include.
+
+    - A work section
+
+      - A section displaying your work in grid. 
+
+        - If you need to use placeholder image use: https://placehold.co/ 
+
+      - Use bootstrap cards for each project.
+
+        - The description should give a brief overview of the work.
+
+      - Each project will eventually link to your class project work!
+
+    - A skills section
+
+      - List out the skills you expect to learn from the bootcamp.
+
+    - An about / contact section.
+
+      - An "About Me" section in the same row.
+    
+    - A footer section.
+
+      - All hyperlinks should have a hover effect.
+
+      - All buttons should display a box shadow upon hover.
+
+5. Your Bootstrap solution should minimize use of media queries.
+
+6. Deploy your new Bootstrap-powered portfolio to GitHub Pages.
 
 ---
 ## Usage
