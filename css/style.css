@@ -134,7 +134,7 @@ section {
     background-color: #05a081 ;
     border-color: #05a081;
     border-radius: 5px;
-    width: 400px;
+    
 
   }
   
@@ -224,10 +224,6 @@ section {
         justify-content: center;
         }
       
-        .customBtn{
-          
-          width: 200px;
-      
-        }
+        
     
   }
