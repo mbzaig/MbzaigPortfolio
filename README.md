@@ -1,4 +1,4 @@
-# < Unit 3 Challenge: MBZAIG Bootstrap Portfolio>
+# Unit 3 Challenge: MBZAIG Bootstrap Portfolio
 
 ## Description
 
@@ -12,6 +12,7 @@
 If your README is long, add a table of contents to make it easy for users to find what they need.
 
 - [Installation](#installation)
+- [Features](#Features)
 - [Usage](#usage)
 - [Credits](#credits)
 - [License](#license)
@@ -22,76 +23,33 @@ If your README is long, add a table of contents to make it easy for users to fin
 - The website can be accessed via https://mbzaig.github.io/Bootstrap-Portfolio
 - Alternatively, the website can be accessed by right-clicking on the index.html page in th VScode and selecting open with live server
 
-Note. you will need to have the live server extension installed for this
+---
+## Features 
 
-1. Create a new GitHub repositories and name it `Bootstrap-Portfolio`. ![](https://img.shields.io/badge/Status%20---100%25-brightgreen)
 
-2. Clone this repository to your computer.![](https://img.shields.io/badge/Status%20---100%25-brightgreen)
+   The website includes the following bootstrap components:
 
-3. Inside your `Bootstrap-Portfolio` repo, create the folder structure for the webpage.![](https://img.shields.io/badge/Status%20---100%25-brightgreen)
-   
-   - Create a folder structure.
+  - A Navigation bar ![](https://img.shields.io/badge/Status%20---100%25-brightgreen)
 
-     - Create a `index.html`.
+ - A hero section ![](https://img.shields.io/badge/Status%20---100%25-brightgreen)
 
-     - Create a `css` folder.
+ - A work section ![](https://img.shields.io/badge/Status%20---100%25-brightgreen)
 
-       - Inside create a `style.css` file.
+ - A skills section ![](https://img.shields.io/badge/Status%20---100%25-brightgreen)
 
-   - Create an `images` folder.
+ - An about / contact section. ![](https://img.shields.io/badge/Status%20---100%25-brightgreen)
 
-       - Place all your images in this folder.
+ - A pop-up appears when the contact form is submitted ![](https://img.shields.io/badge/Status%20---100%25-brightgreen)
 
-4. Using Bootstrap, recreate your portfolio site with the following items: 
-
-   The website should include the following bootstrap components:
-
-    - A Navigation bar
+ - When pop-up is closed the form data is clearedn![](https://img.shields.io/badge/Status%20---100%25-brightgreen)
     
-    - A navigation menu at the top. Feel free to use bootstrap's navbar or create your own.
+ - A footer section.
 
-      - Include links that are applicable to your portfolio.
-  
-        - Links should navigate to the appropriate sections 
-
-    - A hero section
-
-        - A jumbotron featuring your picture, your name, and any other information you'd like to include.
-
-    - A work section
-
-      - A section displaying your work in grid. 
-
-        - If you need to use placeholder image use: https://placehold.co/ 
-
-      - Use bootstrap cards for each project.
-
-        - The description should give a brief overview of the work.
-
-      - Each project will eventually link to your class project work!
-
-    - A skills section
-
-      - List out the skills you expect to learn from the bootcamp.
-
-    - An about / contact section.
-
-      - An "About Me" section in the same row.
-    
-    - A footer section.
-
-      - All hyperlinks should have a hover effect.
-
-      - All buttons should display a box shadow upon hover.
-
-5. Your Bootstrap solution should minimize use of media queries.
-
-6. Deploy your new Bootstrap-powered portfolio to GitHub Pages.
+     
 
 ---
 ## Usage
 
-Provide instructions and examples for use. Include screenshots as needed.
 
 The website has been designed to work under two view ports, greater than 800px width and less than 800px
 
@@ -104,7 +62,7 @@ The website has been designed to work under two view ports, greater than 800px w
 ---
 ## Credits
 
-The assignmed was made possible by following the video recordings and w3schools.com
+The assigment was made possible by following the video recordings and w3schools.com
 
 ---
 ## License
@@ -133,22 +91,4 @@ SOFTWARE.
 
 ---
 
-
-
-
-## Features
-
-Here are the critical requirements necessary to develop a portfolio that satisfies a typical hiring manager’s needs:
-
-* When the page is loaded the page presents your name, a recent photo or avatar, and links to sections about you, your work, and how to contact you ![](https://img.shields.io/badge/-100%25-Green)
-* When one of the links in the navigation is clicked then the UI scrolls to the corresponding section ![](https://img.shields.io/badge/-100%25-Green)
-* When viewing the section about your work then the section contains titled images of your applications ![](https://img.shields.io/badge/-100%25-Green)
-* When presented with the your first application then that application's image should be larger in size than the others ![](https://img.shields.io/badge/-100%25-Green)
-* When images of the applications are clicked then the user is taken to that deployed application ![](https://img.shields.io/badge/-100%25-Green)
-* When the page is resized or viewed on various screens and devices then the layout is responsive and adapts to my viewport ![](https://img.shields.io/badge/-100%25-Green)
-
-
-## How to Contribute
-
-If you created an application or package and would like other developers to contribute it, you can include guidelines for how to do so. The [Contributor Covenant](https://www.contributor-covenant.org/) is an industry standard, but you can always write your own if you'd prefer.
 

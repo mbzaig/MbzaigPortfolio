@@ -231,7 +231,7 @@
         <Section id="contact" class="contact-me">
             <h2>Get in Touch!</h2>
             <hr class="my-4">
-            <form>
+            <form id="contactForm">
                 <div class="form-group row">
                     <label for="inputName13" class="col-sm-2 col-form-label">Name</label>
                     <div class="col-sm-5">
@@ -282,7 +282,6 @@
                     </div>
                 </div>
             </form>
-
             <!-- Modal -->
             <div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel"
                 aria-hidden="true">
@@ -298,20 +297,23 @@
                             We will be in touch.
                         </div>
                         <div class="modal-footer">
-                            <button type="button" class="btn btn-secondary " data-dismiss="modal">Close</button>
+                            <button type="button" onClick="myFunction()" value="Reset Form" class="btn btn-secondary "
+                                data-dismiss="modal">Close</button>
 
                         </div>
                     </div>
                 </div>
             </div>
-
-
-
-
         </Section>
 
         <!--Footer Section -->
-
+        <footer class="footer">
+            <h6>Designed by Muzzamil Baig</h6>
+            <p>
+                &copy; 2022 MBZAIG.
+            </p> 
+        
+        </footer>
 
 
         <!-- End footer -->
@@ -326,6 +328,11 @@
         <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
             integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
             crossorigin="anonymous"></script>
+        <script>
+            function myFunction() {
+                document.getElementById("contactForm").reset();
+            }
+        </script>
     </body>
 
 </html>
