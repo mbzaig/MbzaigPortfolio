@@ -186,12 +186,29 @@ section {
   footer{
     padding: 20px;
   }
-  .footer p {
+  .footer a {
    display: flex;
    align-items: center;
    justify-content: center;
-   
+   color: #05a081;
 
+  }
+
+  .footer a:hover {
+    
+    color: purple;
+ 
+   }
+
+   .footerBtn{
+    background-color: #05a081 ;
+    border-color: #05a081;
+    color: white !important;
+    border-radius: 20px;
+    width: 100px;
+    margin-left: auto;
+    margin-right: auto;
+    
   }
   
 
