@@ -183,10 +183,14 @@ section {
 
 
   /*=============== Footer Section Styling=============*/
+  footer{
+    padding: 20px;
+  }
   .footer p {
    display: flex;
    align-items: center;
    justify-content: center;
+   
 
   }
   
@@ -203,5 +207,10 @@ section {
         justify-content: center;
         }
       
+        .customBtn{
+          
+          width: 200px;
+      
+        }
     
   }
