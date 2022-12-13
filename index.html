@@ -143,18 +143,19 @@
             <h2 class="SectionHeading">My WORK</h2>
             <hr class="my-4">
             <!-- Cards -->
-            <div class="container   content">
+            <div class="container-fluid customCardR1  content">
                 <!-- Row1 -->
                 <div class="row  valueProp showsNear">
                     <!-- Card 1 -->
-                    <div class="cardContainer col-lg-12 col-md-12 col-sm-12 customCard">
+                    <div class="cardContainer col-lg-12 col-md-12 col-sm-12 ">
                         <div class="card imageContainer">
                             <img src="images/horiseon-seo.jpg" class="card-img-top" alt="Horiseon Digital Marketing">
                             <div class="card-body">
                                 <h5 class="card-title">Horiseon</h5>
                                 <p class="card-text">Horiseon is a digital marketing company, specialising in Social
                                     Media Marketing, SEO etc.</p>
-                                <a target="_blank" href="https://mbzaig.github.io/FrontEndBaig" class="btn btn-primary btnCopy">Visit Site</a>
+                                <a target="_blank" href="https://mbzaig.github.io/FrontEndBaig"
+                                    class="btn btn-primary btnCopy">Visit Site</a>
                             </div>
                         </div>
                     </div>
@@ -166,7 +167,7 @@
                 <!-- Row2 -->
                 <div class="row  valueProp ">
                     <!-- Card 1 -->
-                    <div class="cardContainer col-lg-4 col-md-4 col-sm-12 customCardR1">
+                    <div class="cardContainer col-lg-4 col-md-4 col-sm-12 customCard">
                         <div class="card imageContainer">
                             <img src="https://placehold.co/400x300" class="card-img-top" alt="Placeholder">
                             <div class="card-body">
@@ -224,15 +225,85 @@
                 </div>
             </div>
             <!-- End Row2 cards -->
-
-
-
-
         </Section>
 
         <!-- Contact Section -->
         <Section id="contact" class="contact-me">
             <h2>Get in Touch!</h2>
+            <hr class="my-4">
+            <form>
+                <div class="form-group row">
+                    <label for="inputName13" class="col-sm-2 col-form-label">Name</label>
+                    <div class="col-sm-5">
+                        <input type="name" class="form-control" id="inputName13" placeholder="Your Name">
+                    </div>
+                </div>
+                <div class="form-group row">
+                    <label for="inputEmail3" class="col-sm-2 col-form-label">Email</label>
+                    <div class="col-sm-5">
+                        <input type="email" class="form-control" id="inputEmail3" placeholder="Email">
+                    </div>
+                </div>
+
+
+                <div class="form-group row">
+                    <div class="col-sm-2"></div>
+                    <div class="col-sm-10">
+                        <div class="form-check">
+                            <input class="form-check-input" type="checkbox" id="gridCheck1">
+                            <label class="form-check-label" for="gridCheck1">
+                                New Website Enquiry
+                            </label>
+                        </div>
+                    </div>
+                    <div class="col-sm-2"></div>
+                    <div class="col-sm-10">
+                        <div class="form-check">
+                            <input class="form-check-input" type="checkbox" id="gridCheck1">
+                            <label class="form-check-label" for="gridCheck1">
+                                Modify existing website
+                            </label>
+                        </div>
+                    </div>
+                    <div class="col-sm-2"></div>
+                    <div class="col-sm-10">
+                        <div class="form-check">
+                            <input class="form-check-input" type="checkbox" id="gridCheck1">
+                            <label class="form-check-label" for="gridCheck1">
+                                Support request
+                            </label>
+                        </div>
+                    </div>
+                </div>
+                <div class="form-group row">
+                    <div class="col-sm-10">
+                        <button type="submit" class="btn btn-primary btnCopy" data-toggle="modal"
+                            data-target="#exampleModal">Submit</button>
+                    </div>
+                </div>
+            </form>
+
+            <!-- Modal -->
+            <div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel"
+                aria-hidden="true">
+                <div class="modal-dialog" role="document">
+                    <div class="modal-content">
+                        <div class="modal-header">
+                            <h5 class="modal-title" id="exampleModalLabel">THANK YOU</h5>
+                            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                <span aria-hidden="true">&times;</span>
+                            </button>
+                        </div>
+                        <div class="modal-body">
+                            We will be in touch.
+                        </div>
+                        <div class="modal-footer">
+                            <button type="button" class="btn btn-secondary " data-dismiss="modal">Close</button>
+
+                        </div>
+                    </div>
+                </div>
+            </div>
 
 
 
