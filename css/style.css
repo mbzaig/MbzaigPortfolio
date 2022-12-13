@@ -58,10 +58,12 @@ section {
   padding: 100px 0;
 }
 
-section h2 {
-  font-size: 50px;
-  
-}
+.SectionHeading{
+    font-size: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  } 
 .my-4{
     background-color: red;
     display: flex;
@@ -125,18 +127,38 @@ section h2 {
   }
 
  
-  .btn{
+  .customBtn{
     background-color: #05a081 ;
     border-color: #05a081;
     border-radius: 5px;
     width: 400px;
 
   }
-  /*=============== About Me Section Styling=============*/
-  .About-me h2{
+  
+  
+  
+  /*=============== Work Section Styling=============*/
+  .cardContainer {
+    margin-top: 20px;
+    text-align: center;
+  
+  }
+  .customCardR1{
     display: flex;
     align-items: center;
     justify-content: center;
   }
   
+  .btnCopy{
+    display: flex;
+    
+    justify-content: center;
+    background-color: #05a081 ;
+    border-color: #05a081;
+    border-radius: 5px;
+    width: 200px;
+    margin-left: auto;
+    margin-right: auto;
+    
+  }
   
