@@ -29,9 +29,9 @@ If your README is long, add a table of contents to make it easy for users to fin
 
    The website includes the following bootstrap components:
 
-  - A Navigation bar ![](https://img.shields.io/badge/Status%20---100%25-brightgreen)
+  - A Navigation bar  ![](https://img.shields.io/badge/Status%20---100%25-brightgreen)
 
- - A hero section ![](https://img.shields.io/badge/Status%20---100%25-brightgreen)
+ - A hero section  ![](https://img.shields.io/badge/Status%20---100%25-brightgreen)
 
  - A work section ![](https://img.shields.io/badge/Status%20---100%25-brightgreen)
 
@@ -41,9 +41,10 @@ If your README is long, add a table of contents to make it easy for users to fin
 
  - A pop-up appears when the contact form is submitted ![](https://img.shields.io/badge/Status%20---100%25-brightgreen)
 
- - When pop-up is closed the form data is clearedn![](https://img.shields.io/badge/Status%20---100%25-brightgreen)
+ - When pop-up is closed the form data is cleared  ![](https://img.shields.io/badge/Status%20---100%25-brightgreen)
     
- - A footer section.
+ - A footer section.  ![](https://img.shields.io/badge/Status%20---100%25-brightgreen)
+    
 
      
 
@@ -55,9 +56,9 @@ The website has been designed to work under two view ports, greater than 800px w
 
 ---
     
-![Portfolio Demo](Assets\images\Mockup-standard.gif) 
+![Portfolio Demo](/images/Demo-Standard.gif) 
 
-![Portfolio Demo](Assets\images\Mockup-small.gif) 
+![Portfolio Demo](/images/Demo-Mobile.gif) 
 
 ---
 ## Credits

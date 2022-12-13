@@ -190,3 +190,18 @@ section {
 
   }
   
+
+  @media screen and (max-width:800px) {
+    .jumbotron {
+        background-image: url(/images/jumbotron-bg-mb.jpg);
+        background-size: cover;
+        background-repeat: no-repeat;
+        height: calc(100vh - 30px);
+        
+        display: flex;
+        align-items: flex-start;
+        justify-content: center;
+        }
+      
+    
+  }
