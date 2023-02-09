@@ -185,6 +185,7 @@ section {
   /*=============== Footer Section Styling=============*/
   footer{
     padding: 20px;
+    
   }
   .footer a {
    display: flex;
@@ -208,6 +209,16 @@ section {
     width: 100px;
     margin-left: auto;
     margin-right: auto;
+    
+  }
+
+  .footContainer{
+    display: flex;
+    margin-left: 50%;
+  }
+  .footer-text{
+    display: flex;
+    margin-left: 50%;
     
   }
   
